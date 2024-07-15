@@ -9,17 +9,17 @@
          To overcome these challenges, LOCK CO. needs a comprehensive cybersecurity risk assessment and robust protective measures
 
 
-**Rationale for the Project**
+##Rationale for the Project
 
          The significance of initiating this project is underscored by the following reasons:
      
-        ✓ Protection of Sensitive Data: As a technology company handling vast amounts of sensitive client data, safeguarding this information is paramount. A breach could result in significant financial losses and reputational damage.
-        ✓ Compliance Requirements: Adherence to evolving cybersecurity regulations is essential. Non-compliance could result in severe penalties and legal consequences.
-        ✓ Client Trust: Maintaining client trust is a core value for LOCK CO. Demonstrating a commitment to cybersecurity enhances client confidence.
-        ✓ Business Continuity: Cyberattacks can disrupt operations. Mitigating risks ensures uninterrupted service delivery.
-        ✓ Reputation Management: Protecting the company's reputation is crucial in a highly competitive industry. Demonstrating robust cybersecurity practices enhances the company's image
+ - **Protection of Sensitive Data**: As a technology company handling vast amounts of sensitive client data, safeguarding this information is paramount. A breach could result in significant financial losses and reputational damage.
+ - **Compliance Requirements**: Adherence to evolving cybersecurity regulations is essential. Non-compliance could result in severe penalties and legal consequences.
+ - **Client Trust**: Maintaining client trust is a core value for LOCK CO. Demonstrating a commitment to cybersecurity enhances client confidence.
+ - **Business Continuity**: Cyberattacks can disrupt operations. Mitigating risks ensures uninterrupted service delivery.
+ - **Reputation Management**: Protecting the company's reputation is crucial in a highly competitive industry. Demonstrating robust cybersecurity practices enhances the company's image
         
-**Aim of the Project**
+##Aim of the Project
 
       The project aims to achieve the following objectives:
     
@@ -32,11 +32,12 @@
 
   **Data Description**
 
-    The network_logs1: dataset contains logs of network activities, capturing details like source and destination IP addresses, traffic type, protocol, and security features like firewall rules and encryption algorithms.
-    The network_logs2: dataset focuses on security attributes of network connections, detailing the type of threats, connection statuses, severity levels, and various flags for identifying malicious activities.
-    The user_behavior_data: dataset tracks individual user activities, such as activity count, timestamps, and metrics related to email and downloads, aiming to identify suspicious behavior.
+- **The network_logs1**: dataset contains logs of network activities, capturing details like source and destination IP addresses, traffic type, protocol, and security features like firewall rules and encryption algorithms.
+- **The network_logs2**: dataset focuses on security attributes of network connections, detailing the type of threats, connection statuses, severity levels, and various flags for identifying malicious activities.
+- **The user_behavior_data**: dataset tracks individual user activities, such as activity count, timestamps, and metrics related to email and downloads, aiming to identify suspicious behavior.
 
-  **network_logs1 Dataset:**
+
+**network_logs1 Dataset**:
 
     ✓ ID: Unique identifier for each log entry.
     ✓ Source_IP: The IP address where the network traffic originates.
@@ -56,7 +57,8 @@
     ✓ Data_Classification: Classification of the data being transferred, such as Public or Confidential.
     ✓ Encryption_Algorithm: The encryption algorithm used like AES, RSA, or SHA-256.
 
-  **network_logs2 Dataset:**
+
+**network_logs2 Dataset:**
   
     ✓ Linked_ID:Unique identifier for each log entry..
     ✓ Threat_Type: Type of security threat like Malware, DDoS, or Phishing.
@@ -80,7 +82,8 @@
     ✓ Cloud_Service_Info: Cloud service information, such as AWS, Azure, or GCP.
     ✓ IoC_Flag: Indicator of Compromise flag (True or False)
 
-  **User_behavior_data Dataset:**
+
+**User_behavior_data Dataset:**
 
     ✓ ID: Unique identifier for each user activity record.
     ✓ Activity_Count: Count of activities performed by the user.
@@ -90,7 +93,8 @@
     ✓ Number_of_Downloads: Count of files downloaded.
     ✓ Email_Sent: Number of emails sent by the user.
 
-  **Process**
+
+**Process**
   
      I Create Table For Each Dataset and import the data to each table on SQL while i then check for null Value and replace the null, analize the data and prepare some insight.
   
