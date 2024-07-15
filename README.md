@@ -1,10 +1,10 @@
-**LOCK CO.** _faces a critical challenge: securing its systems and data in an increasingly complex cyber threat landscape. This translates to several key obstacles:
+**LOCK CO.** *faces a critical challenge: securing its systems and data in an increasingly complex cyber threat landscape. This translates to several key obstacles:
             mid-size technology company revolutionizing software development in IT
             Malicious actors are constantly trying to infiltrate systems and steal valuable data.
             Client concerns about data security are growing.
             Evolving regulations are imposing stricter data protection and cybersecurity compliance requirements.
             Cyber threats can erode client trust and damage a company's reputation.
-            Potential cyberattacks can cripple operations._
+            Potential cyberattacks can cripple operations.*
 
          To overcome these challenges, LOCK CO. needs a comprehensive cybersecurity risk assessment and robust protective measures
 
